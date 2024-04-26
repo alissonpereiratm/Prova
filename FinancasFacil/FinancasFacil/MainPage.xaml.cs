@@ -1,7 +1,7 @@
 ﻿using Dominio.Entidades;
 using Integracao;
 using Newtonsoft.Json;
-namespace FinancasFacil
+namespace prova
 {
     public partial class MainPage : ContentPage
     {

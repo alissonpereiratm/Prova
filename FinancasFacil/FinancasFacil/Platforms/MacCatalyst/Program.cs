@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace FinancasFacil
+namespace prova
 {
     public class Program
     {

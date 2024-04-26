@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace FinancasFacil
+namespace prova
 {
     public static class MauiProgram
     {

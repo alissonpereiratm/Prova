@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace FinancasFacil
+namespace prova
 {
     [Application]
     public class MainApplication : MauiApplication

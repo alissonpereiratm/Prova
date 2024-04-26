@@ -1,6 +1,6 @@
 ﻿
 
-namespace FinancasFacil
+namespace prova
 {
     public  class BaseClient
     {

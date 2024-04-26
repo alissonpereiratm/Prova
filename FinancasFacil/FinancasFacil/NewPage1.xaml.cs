@@ -2,7 +2,7 @@ using Dominio.Entidades;
 using Newtonsoft.Json;
 using Integracao;
 
-namespace FinancasFacil;
+namespace prova;
 
 public partial class NewPage1 : ContentPage
 {

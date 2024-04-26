@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace FinancasFacil
+namespace prova
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate
