@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinancasFacil.NewPage1"
+             Title="FINANÇAS">
+    <VerticalStackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Label Grid.Row="0" Grid.Column="0" Text="Nome da Ação:" />
+            <Label Grid.Row="0" Grid.Column="1" x:Name="NomeAcaoLabel" />
+
+            <Label Grid.Row="1" Grid.Column="0" Text="Valor da Ação:" />
+            <Label Grid.Row="1" Grid.Column="1" x:Name="ValorAcaoLabel" />
+            
+            <Label Grid.Row="2" Grid.Column="0" Text="Volume de Mercado:" />
+            <Label Grid.Row="2" Grid.Column="1" x:Name="VolumeMercado" />
+
+            <Label Grid.Row="3" Grid.Column="0" Text="Preço de Mercado:" />
+            <Label Grid.Row="3" Grid.Column="1" x:Name="PrecoMercado" />
+
+            <Label Grid.Row="4" Grid.Column="0" Text="Moeda:" />
+            <Label Grid.Row="4" Grid.Column="1" x:Name="Moeda" />
+
+            <Label Grid.Row="5" Grid.Column="0" Text="Nome Completo:" />
+            <Label Grid.Row="5" Grid.Column="1" x:Name="NomeCompleto" />
+
+
+        </Grid>
+
+
+     
+
+
+    </VerticalStackLayout>
+</ContentPage>
